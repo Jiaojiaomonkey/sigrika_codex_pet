@@ -10,6 +10,7 @@
 sigrika_codex_pet/
   pet.json
   spritesheet.webp
+  preview.png
   README.md
   qa/
     contact-sheet.png
@@ -21,6 +22,7 @@ sigrika_codex_pet/
 
 - `pet.json`：Codex 读取宠物时使用的元数据文件。
 - `spritesheet.webp`：最终动画图集，Codex 实际加载的宠物精灵表。
+- `preview.png`：README 中直接展示的预览图。
 - `README.md`：本说明文档。
 
 只安装宠物时，通常只需要 `pet.json` 和 `spritesheet.webp`。`qa/` 目录用于展示和验证，不是运行必需文件。
@@ -113,6 +115,7 @@ your-repo/
   README.md
   pet.json
   spritesheet.webp
+  preview.png
   qa/
     contact-sheet.png
     validation.json
@@ -132,12 +135,12 @@ Codex 自定义宠物：西格莉卡 / Sigrika。
 
 - 已包含 pet.json 和 spritesheet.webp
 - 已通过 atlas validation 和 frame review
-- 包含 contact sheet 预览图
+- 包含 preview.png 预览图
 ```
 
 ## 预览
 
-![西格莉卡 Codex Pet 预览图](qa/contact-sheet.png)
+![西格莉卡 Codex Pet 预览图](./preview.png)
 
 ## 制作说明
 
