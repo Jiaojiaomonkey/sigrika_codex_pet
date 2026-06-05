@@ -106,42 +106,6 @@ C:\Users\<你的用户名>\.codex\pets\sigrika\spritesheet.webp
 - 无警告
 - 透明像素无残留 RGB 问题
 
-## GitHub 上传建议
-
-推荐仓库结构：
-
-```text
-your-repo/
-  README.md
-  pet.json
-  spritesheet.webp
-  preview.png
-  qa/
-    contact-sheet.png
-    validation.json
-    review.json
-```
-
-如果你想做一个 GitHub Release，可以上传：
-
-```text
-sigrika_codex_pet.zip
-```
-
-Release 描述里可以放：
-
-```markdown
-Codex 自定义宠物：西格莉卡 / Sigrika。
-
-- 已包含 pet.json 和 spritesheet.webp
-- 已通过 atlas validation 和 frame review
-- 包含 preview.png 预览图
-```
-
-## 预览
-
-![西格莉卡 Codex Pet 预览图](./preview.png)
-
 ## 制作说明
 
 该宠物使用 hatch-pet 工作流制作：
