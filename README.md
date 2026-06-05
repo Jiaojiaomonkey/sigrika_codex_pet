@@ -15,16 +15,6 @@ sigrika_codex_pet/
     contact-sheet.png
     validation.json
     review.json
-    previews/
-      idle.gif
-      running-right.gif
-      running-left.gif
-      waving.gif
-      jumping.gif
-      failed.gif
-      waiting.gif
-      running.gif
-      review.gif
 ```
 
 ## 核心文件
@@ -105,7 +95,6 @@ C:\Users\<你的用户名>\.codex\pets\sigrika\spritesheet.webp
 - `qa/contact-sheet.png`：所有动画帧的总览图，适合在 GitHub README 或 release 页面展示。
 - `qa/validation.json`：最终图集验证结果。
 - `qa/review.json`：逐帧检查结果。
-- `qa/previews/*.gif`：每个状态的动画预览。
 
 最终验证结果：
 
@@ -128,16 +117,6 @@ your-repo/
     contact-sheet.png
     validation.json
     review.json
-    previews/
-      idle.gif
-      running-right.gif
-      running-left.gif
-      waving.gif
-      jumping.gif
-      failed.gif
-      waiting.gif
-      running.gif
-      review.gif
 ```
 
 如果你想做一个 GitHub Release，可以上传：
@@ -153,24 +132,12 @@ Codex 自定义宠物：西格莉卡 / Sigrika。
 
 - 已包含 pet.json 和 spritesheet.webp
 - 已通过 atlas validation 和 frame review
-- 包含 contact sheet 与 9 个 GIF 动画预览
+- 包含 contact sheet 预览图
 ```
 
 ## 预览
 
-总览图：
-
-```markdown
-![contact sheet](qa/contact-sheet.png)
-```
-
-单个动画预览示例：
-
-```markdown
-![idle](qa/previews/idle.gif)
-![running-right](qa/previews/running-right.gif)
-![running-left](qa/previews/running-left.gif)
-```
+![西格莉卡 Codex Pet 预览图](qa/contact-sheet.png)
 
 ## 制作说明
 
@@ -180,12 +147,15 @@ Codex 自定义宠物：西格莉卡 / Sigrika。
 2. 生成 9 个 Codex pet 动画状态。
 3. 将每个动画状态拆分为 `192 x 208` 单元格。
 4. 合成为 `1536 x 1872` 的最终 WebP 图集。
-5. 生成 contact sheet 和 GIF 预览。
+5. 生成 contact sheet 预览图。
 6. 通过图集验证与逐帧检查。
 
 制作中对 `failed` 和 `running-left` 状态进行了额外修正，以避免边缘碎片和帧提取异常。
 
 ## 备注
+
 本项目为个人兴趣制作的 Codex 宠物包，仅用于个人展示、学习交流与非商业使用。
+
 该宠物形象基于《鸣潮》相关角色进行二次创作，本项目并非官方内容，也未获得《鸣潮》官方或相关权利方的授权、认可或赞助。角色原始设定、名称、世界观及相关知识产权均归其各自权利方所有。
+
 请勿将本项目或其中素材用于任何商业活动，包括但不限于售卖、付费分发、商业宣传、商品制作、广告投放或其他营利性用途。如权利方认为本项目存在不当使用，请联系仓库维护者进行删除或调整。
